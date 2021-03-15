@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.3.0/lib/p5.min.js"></script>
   <title>2021 약목초 6-2 웹 페이지</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+      <script>
+      function setup() {
+        createCanvas(400, 400);
+        background(220);
+        x=0;
+        y=0;
+      }
+
+      function draw() {
+        circle(mouseX, mouseY, random(30));
+      }
+    </script>
 <h1><a href="m.html">2021 약목초 6학년 2반 웹 페이지</a></h1>
 <div id="grid">
     <ol>
